@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: #1b1b1b;
 }
 
 .main_text-container {
