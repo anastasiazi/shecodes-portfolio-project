@@ -14,6 +14,11 @@ body {
     background-color: #1b1b1b;
 }
 
+.container {
+    margin-top: 80px;
+    width: 1200px;
+}
+
 .main_text-container {
     padding: 160px 20px;
     width: 100%;
@@ -74,6 +79,20 @@ body {
 
 .logo {
     font-family: var(--logo-font-family);
+}
+
+.photo-wrapper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 919px) {
