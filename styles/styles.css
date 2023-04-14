@@ -14,6 +14,20 @@ body {
     background-color: #1b1b1b;
 }
 
+nav {
+    margin: 5px 40px
+}
+.nav-link {
+    margin-left: 40px;
+}
+
+.nav-link:hover {
+    color: #F65282 !important;
+}
+
+.navbar-toggler {
+    background-color: #F65282;
+}
 .main_text-container {
     padding: 160px 20px;
     width: 100%;
@@ -74,6 +88,11 @@ body {
 
 .logo {
     font-family: var(--logo-font-family);
+    color: #ffffff;
+}
+
+.logo:hover {
+    color: #F65282;
 }
 
 .photo-wrapper {
