@@ -115,6 +115,14 @@ body {
     text-transform: uppercase;
 }
 
+.container-inner a {]
+
+    font-family: var(--text-font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
 @media (max-width: 900px) {
     .main_title {
         font-size: 48px;
